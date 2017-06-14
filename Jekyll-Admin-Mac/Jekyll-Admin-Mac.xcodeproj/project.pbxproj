@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D14322E1EEFA9A50097BD98 /* NSView+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14322D1EEFA9A50097BD98 /* NSView+BackgroundColor.swift */; };
+		5D2F1BF11EEA5203007002F9 /* NSView+LoadXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F1BF01EEA5203007002F9 /* NSView+LoadXibView.swift */; };
+		5D2F1BF31EEA84E2007002F9 /* SideMenuItemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F1BF21EEA84E2007002F9 /* SideMenuItemConfiguration.swift */; };
+		5D7B05B31EEFD14A00297E8E /* Pods_Jekyll_Admin_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2F285E1CC49E6BF6B9AB4D /* Pods_Jekyll_Admin_Mac.framework */; };
+		5D7B05BC1EEFEDC500297E8E /* BaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B05BA1EEFEDC500297E8E /* BaseListView.swift */; };
+		5D7B05BD1EEFEDC500297E8E /* BaseListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B05BB1EEFEDC500297E8E /* BaseListView.xib */; };
+		5D7B05BF1EF0BFD100297E8E /* NSButton+TitleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B05BE1EF0BFD100297E8E /* NSButton+TitleColor.swift */; };
+		5D7B05C61EF10E2800297E8E /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B05C51EF10E2800297E8E /* PostsView.swift */; };
+		5D7B05C81EF10E3000297E8E /* PostsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B05C71EF10E3000297E8E /* PostsView.xib */; };
+		5D9C212B1EEB7F0600BCE138 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C212A1EEB7F0600BCE138 /* NavigationBar.swift */; };
+		5D9C212D1EEB7F3D00BCE138 /* NavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C212C1EEB7F3D00BCE138 /* NavigationBar.xib */; };
+		5D9C21301EEB994200BCE138 /* GetConfigurationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C212F1EEB994200BCE138 /* GetConfigurationApi.swift */; };
+		5D9C217C1EEBE77400BCE138 /* ContentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C217B1EEBE77400BCE138 /* ContentHeader.swift */; };
+		5D9C217E1EEBE77E00BCE138 /* ContentHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C217D1EEBE77E00BCE138 /* ContentHeader.xib */; };
+		5D9C21801EEBED4800BCE138 /* ContentHeaderValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C217F1EEBED4800BCE138 /* ContentHeaderValue1.swift */; };
+		5D9C21821EEBED5400BCE138 /* ContentHeaderValue1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C21811EEBED5400BCE138 /* ContentHeaderValue1.xib */; };
+		5D9C21841EEBF15400BCE138 /* NSView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C21831EEBF15400BCE138 /* NSView+CornerRadius.swift */; };
+		5DC7F0CD1EE7CF030017F0D0 /* SideMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7F0CC1EE7CF030017F0D0 /* SideMenuView.xib */; };
+		5DC7F0D01EE7E65C0017F0D0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7F0CF1EE7E65C0017F0D0 /* BaseView.swift */; };
+		5DF3BF9C1EE7A6FA0082988D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3BF9B1EE7A6FA0082988D /* AppDelegate.swift */; };
+		5DF3BF9E1EE7A6FA0082988D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3BF9D1EE7A6FA0082988D /* ViewController.swift */; };
+		5DF3BFA01EE7A6FA0082988D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF3BF9F1EE7A6FA0082988D /* Assets.xcassets */; };
+		5DF3BFA31EE7A6FA0082988D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF3BFA11EE7A6FA0082988D /* Main.storyboard */; };
+		5DF3BFAC1EE7B1330082988D /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3BFAB1EE7B1330082988D /* SideMenuView.swift */; };
+		5DFD72641EE9433E00E84426 /* SideMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFD72631EE9433E00E84426 /* SideMenuItemView.swift */; };
+		5DFD72661EE9437200E84426 /* SideMenuItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFD72651EE9437200E84426 /* SideMenuItemView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D14322D1EEFA9A50097BD98 /* NSView+BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+BackgroundColor.swift"; sourceTree = "<group>"; };
+		5D2F1BCE1EEA2270007002F9 /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactory.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Jekyll-Admin-Mac-bcylgfkcgxqgnudtkhluzvefpdin/Build/Products/Debug/FontAwesomeIconFactory/FontAwesomeIconFactory.framework"; sourceTree = "<group>"; };
+		5D2F1BF01EEA5203007002F9 /* NSView+LoadXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+LoadXibView.swift"; sourceTree = "<group>"; };
+		5D2F1BF21EEA84E2007002F9 /* SideMenuItemConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItemConfiguration.swift; sourceTree = "<group>"; };
+		5D7B05BA1EEFEDC500297E8E /* BaseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListView.swift; sourceTree = "<group>"; };
+		5D7B05BB1EEFEDC500297E8E /* BaseListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseListView.xib; sourceTree = "<group>"; };
+		5D7B05BE1EF0BFD100297E8E /* NSButton+TitleColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+TitleColor.swift"; sourceTree = "<group>"; };
+		5D7B05C51EF10E2800297E8E /* PostsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		5D7B05C71EF10E3000297E8E /* PostsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostsView.xib; sourceTree = "<group>"; };
+		5D9C212A1EEB7F0600BCE138 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		5D9C212C1EEB7F3D00BCE138 /* NavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBar.xib; sourceTree = "<group>"; };
+		5D9C212F1EEB994200BCE138 /* GetConfigurationApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetConfigurationApi.swift; sourceTree = "<group>"; };
+		5D9C217B1EEBE77400BCE138 /* ContentHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentHeader.swift; sourceTree = "<group>"; };
+		5D9C217D1EEBE77E00BCE138 /* ContentHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentHeader.xib; sourceTree = "<group>"; };
+		5D9C217F1EEBED4800BCE138 /* ContentHeaderValue1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentHeaderValue1.swift; sourceTree = "<group>"; };
+		5D9C21811EEBED5400BCE138 /* ContentHeaderValue1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentHeaderValue1.xib; sourceTree = "<group>"; };
+		5D9C21831EEBF15400BCE138 /* NSView+CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+CornerRadius.swift"; sourceTree = "<group>"; };
+		5DC7F0CC1EE7CF030017F0D0 /* SideMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuView.xib; sourceTree = "<group>"; };
+		5DC7F0CF1EE7E65C0017F0D0 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5DF3BF981EE7A6FA0082988D /* Jekyll-Admin-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jekyll-Admin-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF3BF9B1EE7A6FA0082988D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DF3BF9D1EE7A6FA0082988D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DF3BF9F1EE7A6FA0082988D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF3BFA21EE7A6FA0082988D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DF3BFA41EE7A6FA0082988D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF3BFAB1EE7B1330082988D /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		5DFD72631EE9433E00E84426 /* SideMenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItemView.swift; sourceTree = "<group>"; };
+		5DFD72651EE9437200E84426 /* SideMenuItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuItemView.xib; sourceTree = "<group>"; };
+		6B2F285E1CC49E6BF6B9AB4D /* Pods_Jekyll_Admin_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jekyll_Admin_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8069D609A9B2A5D770F5D5CE /* Pods-Jekyll-Admin-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jekyll-Admin-Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jekyll-Admin-Mac/Pods-Jekyll-Admin-Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2C82008FF732952D789F19 /* Pods-Jekyll-Admin-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jekyll-Admin-Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jekyll-Admin-Mac/Pods-Jekyll-Admin-Mac.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF3BF951EE7A6FA0082988D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7B05B31EEFD14A00297E8E /* Pods_Jekyll_Admin_Mac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC051CE8D7FF1B94A8F4F54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8069D609A9B2A5D770F5D5CE /* Pods-Jekyll-Admin-Mac.debug.xcconfig */,
+				DF2C82008FF732952D789F19 /* Pods-Jekyll-Admin-Mac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D2F1BEF1EEA51DC007002F9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F1BF01EEA5203007002F9 /* NSView+LoadXibView.swift */,
+				5D9C21831EEBF15400BCE138 /* NSView+CornerRadius.swift */,
+				5D14322D1EEFA9A50097BD98 /* NSView+BackgroundColor.swift */,
+				5D7B05BE1EF0BFD100297E8E /* NSButton+TitleColor.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5D7B05C41EF10E1400297E8E /* HomeContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D7B05C51EF10E2800297E8E /* PostsView.swift */,
+				5D7B05C71EF10E3000297E8E /* PostsView.xib */,
+			);
+			path = HomeContentViews;
+			sourceTree = "<group>";
+		};
+		5D9C21291EEB7EF300BCE138 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C212A1EEB7F0600BCE138 /* NavigationBar.swift */,
+				5D9C212C1EEB7F3D00BCE138 /* NavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		5D9C212E1EEB990600BCE138 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C212F1EEB994200BCE138 /* GetConfigurationApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		5D9C217A1EEBE75D00BCE138 /* ContentHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C217B1EEBE77400BCE138 /* ContentHeader.swift */,
+				5D9C217D1EEBE77E00BCE138 /* ContentHeader.xib */,
+				5D9C217F1EEBED4800BCE138 /* ContentHeaderValue1.swift */,
+				5D9C21811EEBED5400BCE138 /* ContentHeaderValue1.xib */,
+			);
+			path = ContentHeader;
+			sourceTree = "<group>";
+		};
+		5DC7F0CE1EE7E64B0017F0D0 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				5D7B05BA1EEFEDC500297E8E /* BaseListView.swift */,
+				5D7B05BB1EEFEDC500297E8E /* BaseListView.xib */,
+				5DC7F0CF1EE7E65C0017F0D0 /* BaseView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		5DF3BF8F1EE7A6FA0082988D = {
+			isa = PBXGroup;
+			children = (
+				5DF3BF9A1EE7A6FA0082988D /* Jekyll-Admin-Mac */,
+				5DF3BF991EE7A6FA0082988D /* Products */,
+				3FC051CE8D7FF1B94A8F4F54 /* Pods */,
+				ED49133F259980239A3A1B7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF3BF991EE7A6FA0082988D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF3BF981EE7A6FA0082988D /* Jekyll-Admin-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF3BF9A1EE7A6FA0082988D /* Jekyll-Admin-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				5D7B05C41EF10E1400297E8E /* HomeContentViews */,
+				5D9C217A1EEBE75D00BCE138 /* ContentHeader */,
+				5D9C212E1EEB990600BCE138 /* Api */,
+				5D9C21291EEB7EF300BCE138 /* NavigationBar */,
+				5D2F1BEF1EEA51DC007002F9 /* Category */,
+				5DC7F0CE1EE7E64B0017F0D0 /* BaseView */,
+				5DF3BFAA1EE7B1230082988D /* SideMenuView */,
+				5DF3BF9B1EE7A6FA0082988D /* AppDelegate.swift */,
+				5DF3BF9D1EE7A6FA0082988D /* ViewController.swift */,
+				5DF3BF9F1EE7A6FA0082988D /* Assets.xcassets */,
+				5DF3BFA11EE7A6FA0082988D /* Main.storyboard */,
+				5DF3BFA41EE7A6FA0082988D /* Info.plist */,
+			);
+			path = "Jekyll-Admin-Mac";
+			sourceTree = "<group>";
+		};
+		5DF3BFAA1EE7B1230082988D /* SideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				5DFD72621EE9431400E84426 /* SideMenuItemView */,
+				5DF3BFAB1EE7B1330082988D /* SideMenuView.swift */,
+				5DC7F0CC1EE7CF030017F0D0 /* SideMenuView.xib */,
+				5D2F1BF21EEA84E2007002F9 /* SideMenuItemConfiguration.swift */,
+			);
+			path = SideMenuView;
+			sourceTree = "<group>";
+		};
+		5DFD72621EE9431400E84426 /* SideMenuItemView */ = {
+			isa = PBXGroup;
+			children = (
+				5DFD72631EE9433E00E84426 /* SideMenuItemView.swift */,
+				5DFD72651EE9437200E84426 /* SideMenuItemView.xib */,
+			);
+			path = SideMenuItemView;
+			sourceTree = "<group>";
+		};
+		ED49133F259980239A3A1B7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F1BCE1EEA2270007002F9 /* FontAwesomeIconFactory.framework */,
+				6B2F285E1CC49E6BF6B9AB4D /* Pods_Jekyll_Admin_Mac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF3BF971EE7A6FA0082988D /* Jekyll-Admin-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF3BFA71EE7A6FA0082988D /* Build configuration list for PBXNativeTarget "Jekyll-Admin-Mac" */;
+			buildPhases = (
+				AC3DAE88515A151D0B55E51E /* [CP] Check Pods Manifest.lock */,
+				5DF3BF941EE7A6FA0082988D /* Sources */,
+				5DF3BF951EE7A6FA0082988D /* Frameworks */,
+				5DF3BF961EE7A6FA0082988D /* Resources */,
+				980C9CF510B2176E6CF14563 /* [CP] Embed Pods Frameworks */,
+				D0E85C9326BCDE04EFC72669 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jekyll-Admin-Mac";
+			productName = "Jekyll-Admin-Mac";
+			productReference = 5DF3BF981EE7A6FA0082988D /* Jekyll-Admin-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF3BF901EE7A6FA0082988D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张行";
+				TargetAttributes = {
+					5DF3BF971EE7A6FA0082988D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9RWES6K38C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5DF3BF931EE7A6FA0082988D /* Build configuration list for PBXProject "Jekyll-Admin-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DF3BF8F1EE7A6FA0082988D;
+			productRefGroup = 5DF3BF991EE7A6FA0082988D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF3BF971EE7A6FA0082988D /* Jekyll-Admin-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF3BF961EE7A6FA0082988D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC7F0CD1EE7CF030017F0D0 /* SideMenuView.xib in Resources */,
+				5DFD72661EE9437200E84426 /* SideMenuItemView.xib in Resources */,
+				5D9C217E1EEBE77E00BCE138 /* ContentHeader.xib in Resources */,
+				5D7B05BD1EEFEDC500297E8E /* BaseListView.xib in Resources */,
+				5DF3BFA01EE7A6FA0082988D /* Assets.xcassets in Resources */,
+				5D9C21821EEBED5400BCE138 /* ContentHeaderValue1.xib in Resources */,
+				5DF3BFA31EE7A6FA0082988D /* Main.storyboard in Resources */,
+				5D9C212D1EEB7F3D00BCE138 /* NavigationBar.xib in Resources */,
+				5D7B05C81EF10E3000297E8E /* PostsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		980C9CF510B2176E6CF14563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jekyll-Admin-Mac/Pods-Jekyll-Admin-Mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3DAE88515A151D0B55E51E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E85C9326BCDE04EFC72669 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jekyll-Admin-Mac/Pods-Jekyll-Admin-Mac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF3BF941EE7A6FA0082988D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF3BFAC1EE7B1330082988D /* SideMenuView.swift in Sources */,
+				5D14322E1EEFA9A50097BD98 /* NSView+BackgroundColor.swift in Sources */,
+				5DF3BF9E1EE7A6FA0082988D /* ViewController.swift in Sources */,
+				5D2F1BF11EEA5203007002F9 /* NSView+LoadXibView.swift in Sources */,
+				5D7B05BF1EF0BFD100297E8E /* NSButton+TitleColor.swift in Sources */,
+				5D9C212B1EEB7F0600BCE138 /* NavigationBar.swift in Sources */,
+				5D9C217C1EEBE77400BCE138 /* ContentHeader.swift in Sources */,
+				5D2F1BF31EEA84E2007002F9 /* SideMenuItemConfiguration.swift in Sources */,
+				5D7B05BC1EEFEDC500297E8E /* BaseListView.swift in Sources */,
+				5D9C21301EEB994200BCE138 /* GetConfigurationApi.swift in Sources */,
+				5DF3BF9C1EE7A6FA0082988D /* AppDelegate.swift in Sources */,
+				5D9C21841EEBF15400BCE138 /* NSView+CornerRadius.swift in Sources */,
+				5D9C21801EEBED4800BCE138 /* ContentHeaderValue1.swift in Sources */,
+				5DC7F0D01EE7E65C0017F0D0 /* BaseView.swift in Sources */,
+				5D7B05C61EF10E2800297E8E /* PostsView.swift in Sources */,
+				5DFD72641EE9433E00E84426 /* SideMenuItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DF3BFA11EE7A6FA0082988D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF3BFA21EE7A6FA0082988D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DF3BFA51EE7A6FA0082988D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DF3BFA61EE7A6FA0082988D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5DF3BFA81EE7A6FA0082988D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8069D609A9B2A5D770F5D5CE /* Pods-Jekyll-Admin-Mac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9RWES6K38C;
+				INFOPLIST_FILE = "Jekyll-Admin-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globalegrow.Jekyll-Admin-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5DF3BFA91EE7A6FA0082988D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2C82008FF732952D789F19 /* Pods-Jekyll-Admin-Mac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9RWES6K38C;
+				INFOPLIST_FILE = "Jekyll-Admin-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globalegrow.Jekyll-Admin-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF3BF931EE7A6FA0082988D /* Build configuration list for PBXProject "Jekyll-Admin-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF3BFA51EE7A6FA0082988D /* Debug */,
+				5DF3BFA61EE7A6FA0082988D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF3BFA71EE7A6FA0082988D /* Build configuration list for PBXNativeTarget "Jekyll-Admin-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF3BFA81EE7A6FA0082988D /* Debug */,
+				5DF3BFA91EE7A6FA0082988D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DF3BF901EE7A6FA0082988D /* Project object */;
+}

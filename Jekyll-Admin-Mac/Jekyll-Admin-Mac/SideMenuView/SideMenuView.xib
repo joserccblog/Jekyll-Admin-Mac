@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12120"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SideMenuView" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="nb1-NN-dWS" id="6iW-Ln-DjE"/>
+                <outlet property="view" destination="c22-O7-iKe" id="pem-DD-6Yu"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView focusRingType="none" id="c22-O7-iKe" customClass="BaseView" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="205" height="500"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView focusRingType="none" translatesAutoresizingMaskIntoConstraints="NO" id="7hT-yU-DXx" customClass="BaseView" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="425" width="205" height="75"/>
+                    <subviews>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kVe-S9-xKi">
+                            <rect key="frame" x="0.0" y="0.0" width="205" height="75"/>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="jekyll-admin-logo" id="jio-p5-cLT"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="kVe-S9-xKi" secondAttribute="trailing" id="0Df-Hw-uAP"/>
+                        <constraint firstItem="kVe-S9-xKi" firstAttribute="top" secondItem="7hT-yU-DXx" secondAttribute="top" id="5fR-qq-Vxx"/>
+                        <constraint firstAttribute="bottom" secondItem="kVe-S9-xKi" secondAttribute="bottom" id="MSs-yh-qjf"/>
+                        <constraint firstItem="kVe-S9-xKi" firstAttribute="leading" secondItem="7hT-yU-DXx" secondAttribute="leading" id="fYR-Oa-g7I"/>
+                        <constraint firstAttribute="height" constant="75" id="j7h-xb-Z47"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+                <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="49" horizontalPageScroll="10" verticalLineScroll="49" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmq-4C-LcI">
+                    <rect key="frame" x="0.0" y="0.0" width="205" height="425"/>
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="6aU-bL-L1h">
+                        <rect key="frame" x="0.0" y="0.0" width="205" height="425"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="none" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="49" rowSizeStyle="automatic" viewBased="YES" id="nb1-NN-dWS">
+                                <rect key="frame" x="0.0" y="0.0" width="205" height="425"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="0.90061383930000005" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                <tableColumns>
+                                    <tableColumn width="205" minWidth="40" maxWidth="1000" id="Zv9-eg-E2w">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                        </tableHeaderCell>
+                                        <buttonCell key="dataCell" type="bevel" title="Check" bezelStyle="rounded" image="NSActionTemplate" imagePosition="left" alignment="center" controlSize="small" inset="2" id="EDy-eM-fF2">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="smallSystem"/>
+                                        </buttonCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                        <prototypeCellViews>
+                                            <customView identifier="SideMenuItemView" id="TOl-Hh-fa9" customClass="SideMenuItemView" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="205" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </customView>
+                                        </prototypeCellViews>
+                                    </tableColumn>
+                                </tableColumns>
+                                <connections>
+                                    <action selector="didClickRow:" target="-2" id="IBh-1p-H7d"/>
+                                    <outlet property="dataSource" destination="-2" id="CRr-FQ-JOb"/>
+                                    <outlet property="delegate" destination="-2" id="sld-xn-azU"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="gmY-hy-lIS">
+                        <rect key="frame" x="1" y="119" width="223" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="gNx-nb-gdn">
+                        <rect key="frame" x="224" y="17" width="15" height="102"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="gmq-4C-LcI" firstAttribute="top" secondItem="7hT-yU-DXx" secondAttribute="bottom" id="3J0-Hd-NBY"/>
+                <constraint firstAttribute="trailing" secondItem="7hT-yU-DXx" secondAttribute="trailing" id="Lmw-NX-ISb"/>
+                <constraint firstItem="7hT-yU-DXx" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="Phe-3i-tjf"/>
+                <constraint firstAttribute="bottom" secondItem="gmq-4C-LcI" secondAttribute="bottom" id="VgZ-c9-wH8"/>
+                <constraint firstAttribute="trailing" secondItem="gmq-4C-LcI" secondAttribute="trailing" id="WX7-oz-swF"/>
+                <constraint firstItem="7hT-yU-DXx" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="Z4q-OO-3BY"/>
+                <constraint firstItem="gmq-4C-LcI" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="s7y-wv-F2w"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                    <color key="value" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-4.5" y="61"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+        <image name="jekyll-admin-logo" width="123" height="51"/>
+    </resources>
+</document>
