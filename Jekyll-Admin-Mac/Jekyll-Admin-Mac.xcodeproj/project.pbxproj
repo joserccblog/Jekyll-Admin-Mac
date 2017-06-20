@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5D14322E1EEFA9A50097BD98 /* NSView+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14322D1EEFA9A50097BD98 /* NSView+BackgroundColor.swift */; };
+		5D1463731EF373B600F3C482 /* DateTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1463721EF373B600F3C482 /* DateTableCellView.swift */; };
+		5D1463751EF373C800F3C482 /* DateTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D1463741EF373C800F3C482 /* DateTableCellView.xib */; };
+		5D1463771EF3754900F3C482 /* ActionTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1463761EF3754900F3C482 /* ActionTableCellView.swift */; };
+		5D1463791EF3755100F3C482 /* ActionTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D1463781EF3755100F3C482 /* ActionTableCellView.xib */; };
 		5D2F1BF11EEA5203007002F9 /* NSView+LoadXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F1BF01EEA5203007002F9 /* NSView+LoadXibView.swift */; };
 		5D2F1BF31EEA84E2007002F9 /* SideMenuItemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F1BF21EEA84E2007002F9 /* SideMenuItemConfiguration.swift */; };
+		5D744F501EF3E07500EA6DA5 /* BaseRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D744F4F1EF3E07500EA6DA5 /* BaseRequestApi.swift */; };
 		5D7B05B31EEFD14A00297E8E /* Pods_Jekyll_Admin_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2F285E1CC49E6BF6B9AB4D /* Pods_Jekyll_Admin_Mac.framework */; };
 		5D7B05BC1EEFEDC500297E8E /* BaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B05BA1EEFEDC500297E8E /* BaseListView.swift */; };
 		5D7B05BD1EEFEDC500297E8E /* BaseListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B05BB1EEFEDC500297E8E /* BaseListView.xib */; };
@@ -24,8 +29,13 @@
 		5D9C21801EEBED4800BCE138 /* ContentHeaderValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C217F1EEBED4800BCE138 /* ContentHeaderValue1.swift */; };
 		5D9C21821EEBED5400BCE138 /* ContentHeaderValue1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C21811EEBED5400BCE138 /* ContentHeaderValue1.xib */; };
 		5D9C21841EEBF15400BCE138 /* NSView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C21831EEBF15400BCE138 /* NSView+CornerRadius.swift */; };
+		5DBD6A9C1EF38A1100D6E878 /* GetPostListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD6A9B1EF38A1100D6E878 /* GetPostListApi.swift */; };
 		5DC7F0CD1EE7CF030017F0D0 /* SideMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7F0CC1EE7CF030017F0D0 /* SideMenuView.xib */; };
 		5DC7F0D01EE7E65C0017F0D0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7F0CF1EE7E65C0017F0D0 /* BaseView.swift */; };
+		5DDB4FBD1EF2866A0017B50F /* IconTitleTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB4FBC1EF2866A0017B50F /* IconTitleTableCellView.swift */; };
+		5DDB4FBF1EF286830017B50F /* IconTitleTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB4FBE1EF286830017B50F /* IconTitleTableCellView.xib */; };
+		5DE910671EF8B62100153250 /* BaseListViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE910661EF8B62100153250 /* BaseListViewDataSource.swift */; };
+		5DE910691EF8D0F300153250 /* DeletePostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE910681EF8D0F300153250 /* DeletePostDetail.swift */; };
 		5DF3BF9C1EE7A6FA0082988D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3BF9B1EE7A6FA0082988D /* AppDelegate.swift */; };
 		5DF3BF9E1EE7A6FA0082988D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3BF9D1EE7A6FA0082988D /* ViewController.swift */; };
 		5DF3BFA01EE7A6FA0082988D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF3BF9F1EE7A6FA0082988D /* Assets.xcassets */; };
@@ -37,9 +47,14 @@
 
 /* Begin PBXFileReference section */
 		5D14322D1EEFA9A50097BD98 /* NSView+BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+BackgroundColor.swift"; sourceTree = "<group>"; };
+		5D1463721EF373B600F3C482 /* DateTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableCellView.swift; sourceTree = "<group>"; };
+		5D1463741EF373C800F3C482 /* DateTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTableCellView.xib; sourceTree = "<group>"; };
+		5D1463761EF3754900F3C482 /* ActionTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTableCellView.swift; sourceTree = "<group>"; };
+		5D1463781EF3755100F3C482 /* ActionTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionTableCellView.xib; sourceTree = "<group>"; };
 		5D2F1BCE1EEA2270007002F9 /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactory.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Jekyll-Admin-Mac-bcylgfkcgxqgnudtkhluzvefpdin/Build/Products/Debug/FontAwesomeIconFactory/FontAwesomeIconFactory.framework"; sourceTree = "<group>"; };
 		5D2F1BF01EEA5203007002F9 /* NSView+LoadXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+LoadXibView.swift"; sourceTree = "<group>"; };
 		5D2F1BF21EEA84E2007002F9 /* SideMenuItemConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItemConfiguration.swift; sourceTree = "<group>"; };
+		5D744F4F1EF3E07500EA6DA5 /* BaseRequestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestApi.swift; sourceTree = "<group>"; };
 		5D7B05BA1EEFEDC500297E8E /* BaseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListView.swift; sourceTree = "<group>"; };
 		5D7B05BB1EEFEDC500297E8E /* BaseListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseListView.xib; sourceTree = "<group>"; };
 		5D7B05BE1EF0BFD100297E8E /* NSButton+TitleColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+TitleColor.swift"; sourceTree = "<group>"; };
@@ -53,8 +68,13 @@
 		5D9C217F1EEBED4800BCE138 /* ContentHeaderValue1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentHeaderValue1.swift; sourceTree = "<group>"; };
 		5D9C21811EEBED5400BCE138 /* ContentHeaderValue1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentHeaderValue1.xib; sourceTree = "<group>"; };
 		5D9C21831EEBF15400BCE138 /* NSView+CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+CornerRadius.swift"; sourceTree = "<group>"; };
+		5DBD6A9B1EF38A1100D6E878 /* GetPostListApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPostListApi.swift; sourceTree = "<group>"; };
 		5DC7F0CC1EE7CF030017F0D0 /* SideMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuView.xib; sourceTree = "<group>"; };
 		5DC7F0CF1EE7E65C0017F0D0 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5DDB4FBC1EF2866A0017B50F /* IconTitleTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTitleTableCellView.swift; sourceTree = "<group>"; };
+		5DDB4FBE1EF286830017B50F /* IconTitleTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconTitleTableCellView.xib; sourceTree = "<group>"; };
+		5DE910661EF8B62100153250 /* BaseListViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListViewDataSource.swift; sourceTree = "<group>"; };
+		5DE910681EF8D0F300153250 /* DeletePostDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeletePostDetail.swift; sourceTree = "<group>"; };
 		5DF3BF981EE7A6FA0082988D /* Jekyll-Admin-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jekyll-Admin-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF3BF9B1EE7A6FA0082988D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF3BF9D1EE7A6FA0082988D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				5D9C212F1EEB994200BCE138 /* GetConfigurationApi.swift */,
+				5DBD6A9B1EF38A1100D6E878 /* GetPostListApi.swift */,
+				5D744F4F1EF3E07500EA6DA5 /* BaseRequestApi.swift */,
+				5DE910681EF8D0F300153250 /* DeletePostDetail.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -144,6 +167,13 @@
 				5D7B05BA1EEFEDC500297E8E /* BaseListView.swift */,
 				5D7B05BB1EEFEDC500297E8E /* BaseListView.xib */,
 				5DC7F0CF1EE7E65C0017F0D0 /* BaseView.swift */,
+				5DDB4FBC1EF2866A0017B50F /* IconTitleTableCellView.swift */,
+				5DDB4FBE1EF286830017B50F /* IconTitleTableCellView.xib */,
+				5D1463721EF373B600F3C482 /* DateTableCellView.swift */,
+				5D1463741EF373C800F3C482 /* DateTableCellView.xib */,
+				5D1463761EF3754900F3C482 /* ActionTableCellView.swift */,
+				5D1463781EF3755100F3C482 /* ActionTableCellView.xib */,
+				5DE910661EF8B62100153250 /* BaseListViewDataSource.swift */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -280,12 +310,15 @@
 				5DC7F0CD1EE7CF030017F0D0 /* SideMenuView.xib in Resources */,
 				5DFD72661EE9437200E84426 /* SideMenuItemView.xib in Resources */,
 				5D9C217E1EEBE77E00BCE138 /* ContentHeader.xib in Resources */,
+				5DDB4FBF1EF286830017B50F /* IconTitleTableCellView.xib in Resources */,
 				5D7B05BD1EEFEDC500297E8E /* BaseListView.xib in Resources */,
 				5DF3BFA01EE7A6FA0082988D /* Assets.xcassets in Resources */,
 				5D9C21821EEBED5400BCE138 /* ContentHeaderValue1.xib in Resources */,
 				5DF3BFA31EE7A6FA0082988D /* Main.storyboard in Resources */,
 				5D9C212D1EEB7F3D00BCE138 /* NavigationBar.xib in Resources */,
+				5D1463791EF3755100F3C482 /* ActionTableCellView.xib in Resources */,
 				5D7B05C81EF10E3000297E8E /* PostsView.xib in Resources */,
+				5D1463751EF373C800F3C482 /* DateTableCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,19 +377,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDB4FBD1EF2866A0017B50F /* IconTitleTableCellView.swift in Sources */,
 				5DF3BFAC1EE7B1330082988D /* SideMenuView.swift in Sources */,
 				5D14322E1EEFA9A50097BD98 /* NSView+BackgroundColor.swift in Sources */,
+				5DBD6A9C1EF38A1100D6E878 /* GetPostListApi.swift in Sources */,
 				5DF3BF9E1EE7A6FA0082988D /* ViewController.swift in Sources */,
+				5D1463771EF3754900F3C482 /* ActionTableCellView.swift in Sources */,
+				5DE910691EF8D0F300153250 /* DeletePostDetail.swift in Sources */,
 				5D2F1BF11EEA5203007002F9 /* NSView+LoadXibView.swift in Sources */,
 				5D7B05BF1EF0BFD100297E8E /* NSButton+TitleColor.swift in Sources */,
 				5D9C212B1EEB7F0600BCE138 /* NavigationBar.swift in Sources */,
 				5D9C217C1EEBE77400BCE138 /* ContentHeader.swift in Sources */,
+				5DE910671EF8B62100153250 /* BaseListViewDataSource.swift in Sources */,
 				5D2F1BF31EEA84E2007002F9 /* SideMenuItemConfiguration.swift in Sources */,
 				5D7B05BC1EEFEDC500297E8E /* BaseListView.swift in Sources */,
 				5D9C21301EEB994200BCE138 /* GetConfigurationApi.swift in Sources */,
 				5DF3BF9C1EE7A6FA0082988D /* AppDelegate.swift in Sources */,
 				5D9C21841EEBF15400BCE138 /* NSView+CornerRadius.swift in Sources */,
+				5D1463731EF373B600F3C482 /* DateTableCellView.swift in Sources */,
 				5D9C21801EEBED4800BCE138 /* ContentHeaderValue1.swift in Sources */,
+				5D744F501EF3E07500EA6DA5 /* BaseRequestApi.swift in Sources */,
 				5DC7F0D01EE7E65C0017F0D0 /* BaseView.swift in Sources */,
 				5D7B05C61EF10E2800297E8E /* PostsView.swift in Sources */,
 				5DFD72641EE9433E00E84426 /* SideMenuItemView.swift in Sources */,

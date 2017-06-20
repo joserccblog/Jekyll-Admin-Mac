@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12120"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ActionTableCellView" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
+            <connections>
+                <outlet property="deleteItemView" destination="bMH-xO-G0O" id="TmQ-jq-Rxk"/>
+                <outlet property="lookItemView" destination="d2h-yf-wiE" id="WC1-YW-p0t"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="bMH-xO-G0O" customClass="SideMenuItemView" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
+                    <rect key="frame" x="10" y="26" width="100" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="UU6-wn-6nV"/>
+                        <constraint firstAttribute="width" constant="100" id="rLV-S7-Qiw"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.61960784313725492" green="0.63137254901960782" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="d2h-yf-wiE" customClass="SideMenuItemView" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
+                    <rect key="frame" x="370" y="26" width="100" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="I3b-FC-GYD"/>
+                        <constraint firstAttribute="height" constant="32" id="Ogo-hZ-HKt"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.61960784310000006" green="0.63137254899999995" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="bMH-xO-G0O" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="EXY-3U-4WT"/>
+                <constraint firstItem="bMH-xO-G0O" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="10" id="bs6-rh-PZg"/>
+                <constraint firstAttribute="trailing" secondItem="d2h-yf-wiE" secondAttribute="trailing" constant="10" id="mt1-mw-LLd"/>
+                <constraint firstItem="d2h-yf-wiE" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="z8Y-f9-a72"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="168.5"/>
+        </customView>
+    </objects>
+</document>

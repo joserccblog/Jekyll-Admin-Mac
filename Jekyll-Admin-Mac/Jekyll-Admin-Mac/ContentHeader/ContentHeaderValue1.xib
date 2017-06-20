@@ -9,6 +9,7 @@
         <customObject id="-2" userLabel="File's Owner" customClass="ContentHeaderValue1" customModule="Jekyll_Admin_Mac" customModuleProvider="target">
             <connections>
                 <outlet property="action" destination="3mB-CD-cVK" id="Vfs-DM-oBs"/>
+                <outlet property="searchFiled" destination="r66-T8-4DS" id="pzU-jC-OKL"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>

@@ -31,14 +31,12 @@ class ViewController: NSViewController {
         self.addViews(viewType: PostsView.self)
         self.changeContentView(index: self.sideMenuIndex)
         let getConfigurationApi = GetConfigurationApi()
-        getConfigurationApi.loadRequest(success: { [weak self] (configuration) in
-            guard let title = configuration.title else {
+        getConfigurationApi.loadObjectRequest(success: { [weak self] (configuration) in
+            guard let title = configuration?.title else {
                 return
             }
             self?.navigationBar.blogMenuItem.itemTitle.stringValue = title
-        }) { (error) in
-            
-        }
+        }, failure: { (error) in })
     }
     
     func addViews(viewType:NSView.Type) {
@@ -51,6 +49,7 @@ class ViewController: NSViewController {
         for view in self.rightContentView.subviews {
             view.removeFromSuperview()
         }
+        
         guard self.views.count > index && index >= 0 else {
             return
         }

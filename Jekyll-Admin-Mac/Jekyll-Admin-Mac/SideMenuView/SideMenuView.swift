@@ -27,11 +27,11 @@ class SideMenuView: NSView, NSTableViewDataSource, NSTableViewDelegate {
         }
     }
     var menuItems = [
-        SideMenuItemConfiguration(title: "文章", iconHex: "F02D", hidden: true, selected: false),
-        SideMenuItemConfiguration(title: "页面", iconHex: "F15C", hidden: false, selected: false),
-        SideMenuItemConfiguration(title: "数据", iconHex: "F1C0", hidden: true, selected: false),
-        SideMenuItemConfiguration(title: "文件", iconHex: "F15B", hidden: false, selected: false),
-        SideMenuItemConfiguration(title: "配置", iconHex: "F013", hidden: true, selected: false),
+        SideMenuItemConfiguration(title: "文章", iconHex: "F02D", hidden: true, selected: false, normalColor: NSColor(red:0.922, green:0.855, blue:0.757, alpha:1.000)),
+        SideMenuItemConfiguration(title: "页面", iconHex: "F15C", hidden: false, selected: false, normalColor: NSColor(red:0.922, green:0.855, blue:0.757, alpha:1.000)),
+        SideMenuItemConfiguration(title: "数据", iconHex: "F1C0", hidden: true, selected: false, normalColor: NSColor(red:0.922, green:0.855, blue:0.757, alpha:1.000)),
+        SideMenuItemConfiguration(title: "文件", iconHex: "F15B", hidden: false, selected: false, normalColor: NSColor(red:0.922, green:0.855, blue:0.757, alpha:1.000)),
+        SideMenuItemConfiguration(title: "配置", iconHex: "F013", hidden: true, selected: false, normalColor: NSColor(red:0.922, green:0.855, blue:0.757, alpha:1.000)),
     ]
     
     required init?(coder: NSCoder) {
@@ -76,13 +76,6 @@ class SideMenuView: NSView, NSTableViewDataSource, NSTableViewDelegate {
     }
     
     override func prepareForInterfaceBuilder() {
-        self.menuItems = [
-            SideMenuItemConfiguration(title: "文章", iconHex: "F02D", hidden: true, selected: false),
-            SideMenuItemConfiguration(title: "页面", iconHex: "F15C", hidden: false, selected: false),
-            SideMenuItemConfiguration(title: "数据", iconHex: "F1C0", hidden: true, selected: false),
-            SideMenuItemConfiguration(title: "文件", iconHex: "F15B", hidden: false, selected: false),
-            SideMenuItemConfiguration(title: "配置", iconHex: "F013", hidden: true, selected: false),
-            ]
     }
     
 }

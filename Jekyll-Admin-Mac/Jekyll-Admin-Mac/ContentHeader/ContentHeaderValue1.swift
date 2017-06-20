@@ -10,7 +10,7 @@ import Cocoa
 
 class ContentHeaderValue1: BaseView {
     @IBOutlet weak var action: NSButton!
-    
+    @IBOutlet weak var searchFiled: NSTextField!
     override init(frame frameRect: NSRect) {
         super.init(frame: frameRect)
         self.loadXibView()

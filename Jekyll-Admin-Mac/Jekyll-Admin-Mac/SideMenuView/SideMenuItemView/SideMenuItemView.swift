@@ -9,6 +9,8 @@
 import Cocoa
 import FontAwesomeIconFactory
 
+typealias SideMenuItemViewClickCompletionHandle = (_ view:SideMenuItemView) -> Void
+
 @IBDesignable
 class SideMenuItemView: BaseView {
     @IBInspectable @IBOutlet weak var iconImageView: NIKFontAwesomeImageView!
@@ -30,6 +32,8 @@ class SideMenuItemView: BaseView {
         }
     }
     
+    var clickCompletionHandle:SideMenuItemViewClickCompletionHandle?
+    
     override init(frame frameRect: NSRect) {
         super.init(frame: frameRect)
         self.loadXibView()
@@ -40,9 +44,28 @@ class SideMenuItemView: BaseView {
         self.loadXibView()
     }
     
+    func sizeThatFits(_ size: NSSize) -> NSSize {
+        let labelSize = self.itemTitle.sizeThatFits(size)
+        let sizeWidth = size.height + 10 + labelSize.width + 10
+        return NSSize(width: sizeWidth, height: size.height)
+    }
+    
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         self.itemTitle.stringValue = "测试"
         self.iconImageView.iconHex = "F15C"
+    }
+    
+    func addClick(completionHandle:@escaping SideMenuItemViewClickCompletionHandle) {
+        self.clickCompletionHandle = completionHandle
+        let click = NSClickGestureRecognizer(target: self, action:#selector(self.clickAction))
+        self.addGestureRecognizer(click)
+    }
+    
+    func clickAction() {
+        guard let completionHandle = self.clickCompletionHandle else {
+            return
+        }
+        completionHandle(self)
     }
 }
